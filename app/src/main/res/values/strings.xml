@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Zila Seba Apps</string>
+
+    <string name="start">Open</string>
+    <string name="close">Close</string>
+
 </resources>
