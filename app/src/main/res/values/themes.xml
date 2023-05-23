@@ -19,6 +19,10 @@
 
     </style>
 
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+    <item name="android:fontFamily">@font/sf_ns_text</item>
+    </style>
+
     <style name="Theme.ZilaSebaApps" parent="Base.Theme.ZilaSebaApps" />
 
 </resources>
