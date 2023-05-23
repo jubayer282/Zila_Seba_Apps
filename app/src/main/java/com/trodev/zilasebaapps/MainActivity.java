@@ -12,7 +12,7 @@ import com.google.android.material.card.MaterialCardView;
 public class MainActivity extends AppCompatActivity {
 
     /*declare values*/
-    private MaterialCardView companyMc;
+    private MaterialCardView ambulanceMC;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         /*initial this id*/
-        companyMc = findViewById(R.id.companyMc);
+        ambulanceMC = findViewById(R.id.ambulanceMC);
 
         /*set on click listener*/
-        companyMc.setOnClickListener(new View.OnClickListener() {
+        ambulanceMC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Trodev", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Information all Ambulance", Toast.LENGTH_SHORT).show();
             }
         });
 
